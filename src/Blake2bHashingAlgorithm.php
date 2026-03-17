@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace KDuma\SimpleDAL\DataIntegrity\Sodium;
+namespace KDuma\SimpleDAL\Integrity\Sodium;
 
-use KDuma\SimpleDAL\DataIntegrity\Contracts\HashingAlgorithmInterface;
+use KDuma\SimpleDAL\Integrity\Contracts\HashingAlgorithmInterface;
 
 class Blake2bHashingAlgorithm implements HashingAlgorithmInterface
 {

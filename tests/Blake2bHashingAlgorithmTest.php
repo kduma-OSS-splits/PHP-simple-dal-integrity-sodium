@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use KDuma\SimpleDAL\DataIntegrity\Sodium\Blake2bHashingAlgorithm;
+use KDuma\SimpleDAL\Integrity\Sodium\Blake2bHashingAlgorithm;
 
 test('hash returns 32 bytes', function () {
     $algo = new Blake2bHashingAlgorithm;

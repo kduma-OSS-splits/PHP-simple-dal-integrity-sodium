@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use KDuma\SimpleDAL\DataIntegrity\Sodium\Ed25519SigningAlgorithm;
+use KDuma\SimpleDAL\Integrity\Sodium\Ed25519SigningAlgorithm;
 
 function createTestEd25519Key(string $id = 'test'): Ed25519SigningAlgorithm
 {
